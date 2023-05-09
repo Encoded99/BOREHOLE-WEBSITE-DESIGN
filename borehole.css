@@ -1,0 +1,613 @@
+.icon{
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    z-index: 1;
+    width: 200px;
+    margin-right: 5%;
+}
+
+
+.icon>li{
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 15%;
+
+}
+
+
+.en{
+    width: 100%;
+    height:40px ;
+    background-color: black;
+    color: white;
+}
+
+.fonts{
+    text-align: justify;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    width: 100vw;
+    height: 50px;
+    background-color: blue;
+    position: relative; 
+   top: -3%;
+
+}
+
+.bts{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.links>li{
+    display: inline-block;
+    list-style: none;
+    margin: 1%;
+    
+}
+.links>li:first-child{
+    margin-left: 300px;
+}
+
+#test{
+    
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color:#eee;
+    position: absolute;
+    top: 79%;
+    
+
+    
+}
+img{
+    height: 70%;
+    width: 100%
+    
+}
+h1{
+    text-align: center;
+    font-size: 50PX;
+}
+span{
+    background-color: red;
+    color: white;
+}
+.container{
+    position: relative;
+}
+#drilling{
+    
+    position: absolute;
+    top:79%;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color:#eee;
+   
+}
+
+#pump{
+    
+    position: absolute;
+    top:79%;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color:#eee;
+    
+
+}
+
+#cost{
+    position: absolute;
+    top:79%;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color:#eee;
+    
+
+}
+.btc{
+    /* position: absolute;
+    top: 392%; */
+    display: block;
+}
+button{
+    width: 100vw;
+}
+.article{
+    display: none;
+}
+.btn{
+   background-color: grey;
+   color: white;
+   height: 8%;
+}
+.btn.active{
+    
+    background-color: white;
+}
+.article.active{
+    display: block;
+}
+
+.lbs{
+    color: white;
+    width: 100%;
+    height: 425px;
+    background-color: blue;
+    position: relative;
+   
+
+}
+
+
+.lb{
+    color: white;
+    width: 100%;
+    height: 425px;
+    background-color: blue;
+    position: relative;
+    top: 189%;
+
+}
+.t1{
+
+    width: 300px;
+    height:50% ;
+    border-right: white,solid,8px;
+    position: absolute;
+    top: 10%;
+    left:2% ;
+    
+   
+    
+
+}
+.t2h{
+    text-align: center;
+}
+
+.t2{
+    width: 300px;
+    height:50% ;
+    border-right: white,solid,8px;
+    position: absolute;
+    top: 10%;
+    left:35.33% ;
+   
+    
+
+}
+
+.t3{
+    width: 300px;
+    height:50% ;
+    border-right: white,solid,8px;
+    position: absolute;
+    top: 10%;
+    left:64.67% ;
+}
+
+.copy{
+    position: absolute;
+    top:391px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+
+
+@media screen and  (max-width:850px){
+    .en{
+        width: 100%;
+        height:40px ;
+        background-color: black;
+        color: white;
+    }
+    
+    .fonts{
+        text-align: justify;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav{
+        width: 95.5vw;
+        height: 50px;
+        background-color: blue;
+        position: relative; 
+       top: -3%;
+    
+    }
+    
+    .bts{
+        display: none;
+    }
+    
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    
+    .links>li{
+        display: inline-block;
+        list-style: none;
+        margin: 1%;
+        
+    }
+    .links>li:first-child{
+        margin-left: 150px;
+    }
+    
+    #test{
+        
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color:#eee;
+        position: absolute;
+        top: 79%;
+        
+    
+        
+    }
+    img{
+        height: 70%;
+        width: 100%
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 50PX;
+    }
+    span{
+        background-color: red;
+        color: white;
+    }
+    .container{
+        position: relative;
+    }
+    #drilling{
+        
+        position: absolute;
+        top:79%;
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color:#eee;
+       
+    }
+    
+    #pump{
+        
+        position: absolute;
+        top:79%;
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color:#eee;
+        
+    
+    }
+    
+    #cost{
+        position: absolute;
+        top:79%;
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color:#eee;
+        
+    
+    }
+    .btc{
+        /* position: absolute;
+        top: 392%; */
+        display: block;
+    }
+    button{
+        width: 100vw;
+    }
+    .article{
+        display: none;
+    }
+    .btn{
+       background-color: grey;
+       color: white;
+       height: 8%;
+    }
+    .btn.active{
+        
+        background-color: white;
+    }
+    .article.active{
+        display: block;
+    }
+    
+    
+    .lb{
+        color: white;
+        width: 100%;
+        height: 425px;
+        background-color: blue;
+        position: relative;
+        top: 977px;
+    
+    }
+
+    .lh{
+        font-size: 20px;
+    }
+    .t1{
+    
+        width: 150px;
+        height:50% ;
+        border-right: white,solid,8px;
+        position: absolute;
+        top: 10%;
+        left:2% ;
+        
+       
+        
+    
+    }
+    .t2h{
+        text-align: center;
+    }
+    
+    .t2{
+        width: 150px;
+        height:50% ;
+        border-right: white,solid,8px;
+        position: absolute;
+        top: 10%;
+        left:35.33% ;
+       
+        
+    
+    }
+    
+    .t3{
+        width: 150px;
+        height:50% ;
+        border-right: white,solid,8px;
+        position: absolute;
+        top: 10%;
+        left:64.67% ;
+    }
+    
+    .copy{
+        position: absolute;
+        top:391px;
+        width: 100%;
+        background-color: black;
+        color:white;
+        text-align: center;
+    }  
+
+}
+
+
+@media screen and  (max-width:450px){
+
+
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .nav{
+        width: 100%;
+        position: relative;
+        top: 0%;
+    }
+    
+    
+    .bts{
+        position: relative;
+        left: -1%;
+        float: right;
+        display: block;
+         width: 30px;
+         height: 30px;
+    }
+    .links{
+        background-color: blue;
+        width: 88.5%;
+        height: 0px;
+        overflow: hidden;
+        transition: 1s;
+        position: absolute;
+        left: 0%;
+        top: 175%;
+        z-index: 1;
+        }
+    .links>li{
+        display: block;
+        list-style: none;
+        margin: 5%;
+        margin-top: 8%;
+    }
+    .links>li:first-child{
+        margin-left: 5%;
+    }
+    
+    .show-links{
+        height: 300px;
+    }
+    
+    button{
+        width: 100%;
+    }
+    .lb{
+        color: white;
+        width: 100%;
+        height: 500px;
+        background-color: blue;
+        position: relative;
+        top: 178%;
+        left: -0.8%;
+        }
+
+        
+        
+    
+        .lb>div{
+        display: block;
+        
+        }
+        
+        .lh{
+        font-size: 14px;
+        text-align: center;
+
+        }
+
+        .t3h{
+            margin-left: -2%;
+        }
+        .t1{
+        
+        width: 100%;
+        height:240px ;
+         position: absolute;
+         top: 1%; 
+        }
+        
+        
+        .t2{
+        width: 100%;
+        height:240px ;
+        border-right: white,solid,8px;
+        position: absolute;
+        top: 28%;
+        left: 1%;
+        
+        
+        }
+        
+        .t3{
+        width: 100%;
+        height:240px ;
+        position: absolute;
+        top: 57%;
+        left: 2%;
+        
+        }
+      
+ .copy{
+    margin-top: 29%;
+    height: auto;
+ }
+
+ .icon{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    z-index: 1;
+    width: 200px;
+    margin-right: 5%;
+}
+
+
+.icon>li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 15%;
+
+
+
+  
+        }
+
+
+        .lbs{
+            color: white;
+            width: 100%;
+            height: 510px;
+            background-color: blue;
+            position: relative;
+            top: 178%;
+            left: -0.8%;
+            }
+        
+        .t1s{
+            font-size:15px ;
+            width: 100%;
+            height:240px ;
+             position: absolute;
+             top: 1%; 
+             left: 1%;
+            }
+        .t2s{
+            font-size:15px ;
+        width: 100%;
+        height:240px ;
+        border-right: white,solid,8px;
+        position: absolute;
+        top:28%;
+        left: 1%;
+        
+        
+        }
+        
+        .t3s{
+        font-size:15px ;
+        width: 100%;
+        height:240px ;
+        position: absolute;
+        top: 55%;
+        left: 1%;
+        
+        }
+      
+ .copys{
+    margin-top: 20%;
+    height: auto;
+
+ }
+
+ .icons{
+    position: absolute;
+    left: 40%;
+    top:83%;
+    z-index: 1;
+    width: 200px;
+    margin-right: 5%;
+}
+
+
+.icons>li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 15%;
+
+
+}
+
+
+}
